@@ -5,7 +5,7 @@
 #### Run
 ```
 docker run -ti --rm --name Eobot \
--e ENV USER="1777741" \
+-e USER="1777741" \
 -e CORES=4 \
 izone/eobot
 ```
