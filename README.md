@@ -4,14 +4,17 @@
 
 ### Run
 
-#### Eobot (x11)
+#### Eobot (x11) - Default
+```
+docker run -ti --rm --name Eobot izone/minerd
+```
 ```
 docker run -ti --rm --name Eobot \
 -e ALGORITHM="x11" \
 -e POOL="x11.eobot.com" \
 -e PORT="5555" \
 -e USERPASS="eobot.1777741:x" \
-izone/eobot
+izone/minerd
 ```
 
 #### Build
