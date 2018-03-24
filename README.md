@@ -20,5 +20,8 @@ izone/minerd
 #### Build
 ```
 docker build -t izone/minerd .
+```
+```
 docker build -t izone/minerd:build -f Dockerfile_build .
 ```
+

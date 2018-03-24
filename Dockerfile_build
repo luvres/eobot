@@ -15,4 +15,4 @@ RUN \
   \
 	&& ./autogen.sh \
 	&& ./configure \
-	&& make 
+	&& make -j$(nproc)
